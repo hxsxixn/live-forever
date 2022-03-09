@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  letter-spacing: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+header.jumbotron {
+  background-image: url(https://www.mo-ss.com/live-forever/t7/images/building.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  padding: 140px;
+  color: #eee;
+  border-radius: 0px;
+}
+
+section {
+  padding: 40px 0px;
+  color: #1B382A;
+}
+section h6 {
+  margin: 5px;
+}
+section .im1 {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  padding: 20px;
+}
+section .im2 {
+  width: 100%;
+  max-width: 750px;
+}
+
+.intro h4 {
+  padding-bottom: 20px;
+}
+
+.story {
+  background-color: #eee;
+}
+.story .col-md-6 {
+  padding: 25px;
+}
+.story i {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+.pictures {
+  padding: 0px;
+}
+.pictures i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.pictures p {
+  margin: 0px;
+  font-weight: bold;
+}
+.pictures .col-md-6 {
+  padding: 40px;
+  cursor: pointer;
+  height: 200px;
+}
+.pictures .col-md-6:hover {
+  transition-duration: 0.5s;
+  color: #ddd;
+  font-weight: 100;
+}
+.pictures .col-md-6:hover:before {
+  opacity: 0.9;
+  filter: brightness(0.5);
+  background-size: 105%;
+  transition-duration: 1s;
+}
+.pictures .col-md-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center center;
+}
+
+.pic1:before {
+  background-image: url(https://scontent.frmq2-2.fna.fbcdn.net/v/t1.6435-9/124382140_3345568955492152_2874412983551541363_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=seRhT6MsPvAAX99FH5h&_nc_ht=scontent.frmq2-2.fna&oh=00_AT8OGXkupvMtWRTRrL14b1Y6OZZE3wjl3gK12ko2Bv4WfA&oe=62244C9C);
+}
+
+.pic2:before {
+  background-image: url(https://scontent.frmq2-2.fna.fbcdn.net/v/t1.6435-9/106301294_2970669659648752_4552522661560646128_n.png?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=RiyY4EvYcqgAX_wvZx_&_nc_oc=AQnrL8k87O5L303pMI0T333CkPR2r85pLO5dZQY_zJdHOA3DHbnuVh2w7Fwk_7UW3ujofwHvdrzavVbf3ThJ6e7S&_nc_ht=scontent.frmq2-2.fna&oh=00_AT_gTJLXzCF8-9RRvESXX1PRTdNJ9CzAHF5kpS247sm-Uw&oe=62247061);
+}
+
+.bottom input {
+  vertical-align: middle;
+  padding: 2px;
+  letter-spacing: initial;
+  border-radius: 5px;
+  border: none;
+  background-color: #ccc;
+  outline-color: #1B382A;
+}
+.bottom .btn-outline-dark {
+  color: #1B382A;
+}
+.bottom .btn-outline-dark:hover {
+  background-color: #1B382A;
+  color: #eee;
+}
